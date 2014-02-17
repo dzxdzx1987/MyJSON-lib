@@ -1,4 +1,4 @@
-package com.motrex.xml;
+package com.motrex.jsonb2xml.xml;
 import java.util.*;
 public class CustomizedElement {
 	private String name;

@@ -1,6 +1,7 @@
-package com.motrex.xml.test;
-import com.motrex.xml.*;
+package com.motrex.jsonb2xml.test;
 import java.io.File;
+
+import com.motrex.jsonb2xml.xml.XMLParser;
 
 public class XMLTest {
 
@@ -8,7 +9,8 @@ public class XMLTest {
 		// TODO Auto-generated method stub
 		File file = new File("C:" + File.separator + "sample-xml.xml");
 		XMLParser parser = new XMLParser();
-		parser.toJSON(file);
+		System.out.println(parser.getRootElementName());
+		parser.writeToJSON(file);
 	}
 
 }
